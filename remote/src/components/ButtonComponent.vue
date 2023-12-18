@@ -2,7 +2,10 @@
   <div>
     <div class="text-center flex justify-center">
       <!-- MyComponent -->
-      <button class="bg bg-red-400" @click="onButtonClick">click me</button>
+      <div class="container">
+        <slot name="componentA"></slot>
+        <button class="p-2" @click="onButtonClick">click me </button>
+      </div>
     </div>
   </div>
 </template>
@@ -13,6 +16,6 @@ const emit = defineEmits(['someEvent'])
 function onButtonClick() {
   // debugger
   emit("someEvent")
-  alert("Hello from remote")
+  // alert("Hello from remote")
 }
 </script>

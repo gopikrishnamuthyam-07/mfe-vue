@@ -10,7 +10,7 @@
 
 <script setup lang="ts">
 import ButtonComponent from "remote/ButtonComponent";
-import ModalComponent from '../ModalComponent.vue'
+import ModalComponent from './components/ModalComponent.vue'
 
 import { ref } from 'vue';
 
