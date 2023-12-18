@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="text-center">
-      <h1 class="uppercase text-center font-bold">remote</h1>
+      <h1 class="uppercase text-center font-bold">Remote App</h1>
     </div>
     <!-- <RouterView></RouterView> -->
     <ComponentA class="m-2"/>
