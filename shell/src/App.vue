@@ -1,9 +1,8 @@
-<!-- App.vue -->
 
 <template>
   <div class="text-center">
-    <h1 class="italic uppercase font-bold">Shell</h1>
-    <ButtonComponent @some-event="openModal" />
+    <h1 class="italic uppercase font-bold bg bg-blue-400">Shell</h1>
+    <ButtonComponent @someEvent="openModal" />
     <ModalComponent :show="modalVisible" @close="closeModal" />
   </div>
 </template>

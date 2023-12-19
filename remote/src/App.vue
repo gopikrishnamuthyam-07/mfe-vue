@@ -1,12 +1,14 @@
 <template>
   <div>
     <div class="text-center">
-      <h1 class="uppercase text-center font-bold">Remote App</h1>
+      <h1 class="uppercase text-center font-bold bg bg-yellow-400">Remote App</h1>
     </div>
     <!-- <RouterView></RouterView> -->
-    <ComponentA class="m-2"/>
-    <ComponentB class="m-2"/>
-    <ComponentC />
+    <div class="flex justify-around mt-5">
+      <ComponentA class="m-2" />
+      <ComponentB class="m-2" />
+      <ComponentC class=" m-2" />
+    </div>
   </div>
 </template>
 

@@ -8,7 +8,7 @@
 
 import ButtonComponent from './ButtonComponent.vue';
 function showConfirm() {
-    if (window.confirm("are you")) {
+    if (window.confirm("are you want alert message ?")) {
         console.log("alert from comp A")
     }
 }

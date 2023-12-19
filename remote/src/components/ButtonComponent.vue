@@ -4,7 +4,7 @@
       <!-- MyComponent -->
       <div class="container">
         <slot name="componentA"></slot>
-        <button class="p-2" @click="onButtonClick">click me </button>
+        <button class="p-2 font-semibold" @click="onButtonClick">click me </button>
       </div>
     </div>
   </div>

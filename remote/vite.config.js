@@ -13,10 +13,16 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         "./ButtonComponent": "./src/components/ButtonComponent.vue",
+        "./ComponentA": "./src/components/ComponentA.vue",
         // "./main": "./src/assets/main.css"
       },
+      shared: ["vue"],
     }),
   ],
+  build: {
+    minify: false,
+    target: ["chrome89", "edge89", "firefox89", "safari15"],
+  },
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
